@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
 
+# Platform
+TARGET_BOARD_PLATFORM := canoe
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
